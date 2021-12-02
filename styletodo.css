@@ -1,0 +1,158 @@
+html body {
+  min-height: 100vh;
+  background-color: #e9ecef;
+  margin-top: 50px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-style: italic;
+  color: grey;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.todo-teksti {
+  border: #353535;
+  width: 270px;
+  height: 20px;
+  padding: 3px;
+}
+
+.poista-nappi {
+  float: left;
+  width: 45px;
+  margin-top: 10px;
+  height: 20px;
+  text-align: center;
+  background: none;
+  color: Black;
+  font-size: 13px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  border-color: transparent;
+  border-radius: 2px;
+  padding: 0px;
+}
+
+.poista-nappi:hover {
+  color: rgba(105, 105, 105, 0.993);
+}
+
+.tekstirivi {
+  float: left;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.tekstirivi2 {
+  float: left;
+  margin-top: 10px;
+  text-decoration: line-through;
+  color: rgb(175, 175, 175);
+}
+
+.editoi-nappi {
+  float: right;
+  width: 60px;
+  margin-top: 10px;
+  margin-right: 5px;
+  height: 25px;
+  text-align: center;
+  color: white;
+  background: #23b7e5;
+  font-size: 13px;
+  border-color: #23b7e5;
+  border-radius: 4px;
+  padding: 0px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.editoi-nappi:hover {
+  background: #197e9c;
+  border-color: #197e9c;
+}
+
+.todo {
+  width: 80%;
+  background-color: rgb(247, 243, 226);
+  border: 1px solid;
+  border-color: #d7dfbd;
+  border-radius: 3px;
+  padding: 1px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.todo:hover {
+  background-color: wheat;
+}
+
+#inside {
+  width: 100%;
+  height: 100%;
+  display: table;
+  vertical-align: middle;
+}
+
+.syote {
+  background-color: rgb(247, 243, 226);
+  border: 1px solid;
+  border-color: rgb(184, 184, 185);
+  border-radius: 3px;
+  padding: 3px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tehdyt {
+  border-color: transparent;
+  background-color: transparent;
+  color: grey;
+}
+
+#tehdyt:hover {
+  color: Black;
+}
+
+#tehtavat {
+  border-color: transparent;
+  background-color: transparent;
+  color: grey;
+}
+
+#tehtavat:hover {
+  color: Black;
+}
+
+#kaikki {
+  border-color: transparent;
+  background-color: transparent;
+  color: grey;
+}
+
+#kaikki:hover {
+  color: Black;
+}
+
+.ylajumbo {
+  width: 100%;
+  margin-top: 30px;
+  background-image: url("notebook-top.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-image: url("notebook-center.png");
+  background-position: center;
+  background-repeat: repeat-y;
+  margin-top: -16px;
+  padding: 0px;
+}
+
+.alajumbo {
+  width: 100%;
+  background-image: url("notebook-bottom.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: antiquewhite;
+}
